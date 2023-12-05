@@ -71,8 +71,8 @@ const Login = () => {
                 sx={{
                     flex: 1,
                     backgroundImage:
-                        "url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80')",
-                    backgroundSize: "cover",
+                        "url('https://www.nucleussoftware.com/public/gallery/who-we-are/nucleus-front.JPG')",
+                        backgroundSize: "cover",
                 }}
             />
 
@@ -83,7 +83,7 @@ const Login = () => {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    backgroundColor: "#f7f7f7",
+                    backgroundColor: "white",
                     flexDirection: "column",
                     gap: "1rem",
                     padding: "2rem",
@@ -95,7 +95,7 @@ const Login = () => {
                     style={{
                         color: "black",
                         fontFamily: "'Quicksand', sans-serif", // Use the Quicksand font
-                        fontWeight: 600, // You can adjust the font weight (300, 400, 500, 600, 700)
+                        fontWeight: 700, // You can adjust the font weight (300, 400, 500, 600, 700)
                         fontSize: "2.5rem",
                         opacity: 0.8,
                     }}
@@ -115,7 +115,7 @@ const Login = () => {
                         padding: "2rem",
                         borderRadius: "1.5rem",
                         boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-                        width: "70%", // Adjust the width as needed
+                        width: "50%", // Adjust the width as needed
                     }}
                     onSubmit={handleSubmit}
                 >
