@@ -30,6 +30,7 @@ const Login = () => {
             const res = await API.post("/auth/login", {
                 username,
                 password,
+                
             }, {
                 headers: {
                     "Content-Type": 'application/json',
@@ -123,7 +124,7 @@ const Login = () => {
                         id="username"
                         label="Username"
                         variant="outlined"
-                        value={username}
+                        value={username.toUpperCase()}
                         onChange={(e) => setUsername(e.target.value)}
                     />
                     <TextField
